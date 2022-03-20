@@ -33,6 +33,11 @@ class Triangle:
 
 
 def add_point(points, n=1):
+
+    """
+    Add n points in the triangle
+    """
+
     for _ in range(n):
         other = random.choice(triangle.points)
         p = points[-1]
